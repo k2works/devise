@@ -36,27 +36,11 @@ Railsアプリでユーザー認証機能を簡単に組み込めるようにす
     
 5. ログインページを作成
 
-`$ rails g controller home index`
-
 6. config/route.rbを編集
-
-`root :to => "home#index"`
 
 7. デフォルトのページをリネーム
 
-`$ mv public/index.html public/index.html.bak`
-
 8. 認証関連ページを日本語化する
-
-日本語ファイルをダウンロードする
-
-https://gist.github.com/kawamoto/4729292
-
-config/locales/dvise.ja.ymlとして保存する
-
-config/application.rbを編集する
-
-`config.i18n.default_locale = :ja`
 
 ### 参照
 
