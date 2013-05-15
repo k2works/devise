@@ -38,7 +38,7 @@ Railsアプリでユーザー認証機能を簡単に組み込めるようにす
 
 `$ rails g controller home index`
 
-app/views/home/index.html.erbを編集
+  app/views/home/index.html.erbを編集
 
         <% if user_signed_in? %>
           <%= link_to "ログアウト", destroy_user_session_path, :method => 'delete' %>
