@@ -47,7 +47,7 @@ Railsアプリでユーザー認証機能を簡単に組み込めるようにす
           <%= link_to "ログイン", new_user_session_path %>
           <%= link_to "登録", new_user_registration_path %>
         <% end %>
-    
+
 6. config/route.rbを編集
 
 `root :to => "home#index"`
