@@ -53,8 +53,6 @@ Railsアプリでユーザー認証機能を簡単に組み込めるようにす
 
 7. デフォルトのページをリネーム
 
-`$ mv public/index.html public/index.html.bak`
-
 8. 認証関連ページを日本語化する
 
 ### 参照
