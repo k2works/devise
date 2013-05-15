@@ -53,8 +53,19 @@ Railsアプリでユーザー認証機能を簡単に組み込めるようにす
 
 7. デフォルトのページをリネーム
 
+ `$ mv public/index.html public/index.html.bak`
+ 
 8. 認証関連ページを日本語化する
+ 本語ファイルをダウンロードする
 
+ https://gist.github.com/kawamoto/4729292
+
+ config/locales/dvise.ja.ymlとして保存する
+
+ config/application.rbを編集する
+
+ `config.i18n.default_locale = :ja`
+ 
 ### 参照
 
 [本家](https://github.com/plataformatec/devise)
