@@ -38,7 +38,6 @@ Railsアプリでユーザー認証機能を簡単に組み込めるようにす
 
 `$ rails g controller home index`
 
-
 6. config/route.rbを編集
 
 `root :to => "home#index"`
