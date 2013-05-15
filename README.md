@@ -49,7 +49,7 @@ Railsアプリでユーザー認証機能を簡単に組み込めるようにす
 
 6. config/route.rbを編集
 
-`root to: "home#inde"`
+ `root to: "home#inde"`
 
 7. デフォルトのページをリネーム
 
