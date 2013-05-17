@@ -16,7 +16,7 @@ Railsアプリでユーザー認証機能を簡単に組み込めるようにす
 
    `$ rails g devise:install`
 
-   `$ rails g devise:vies`
+   `$ rails g devise:views`
 
    `$ rails g devise user`
 
